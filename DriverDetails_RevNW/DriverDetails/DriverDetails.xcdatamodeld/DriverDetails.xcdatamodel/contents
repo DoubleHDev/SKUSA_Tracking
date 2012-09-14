@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12B19" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DriverDetails" representedClassName="DriverDetails" syncable="YES">
+        <attribute name="chassisBarCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="chassisName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="engineBarCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="engineName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="tire1" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tire2" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tire3" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tire4" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tire5" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tire6" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DriverDetails" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
