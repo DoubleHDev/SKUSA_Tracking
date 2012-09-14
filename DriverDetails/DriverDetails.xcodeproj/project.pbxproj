@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A15AFCA1600E5650029D2FD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A15AFC91600E5650029D2FD /* libsqlite3.0.dylib */; };
+		6A9AC6C015FFBCE000C35242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9AC6BF15FFBCE000C35242 /* UIKit.framework */; };
+		6A9AC6C215FFBCE000C35242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9AC6C115FFBCE000C35242 /* Foundation.framework */; };
+		6A9AC6C415FFBCE000C35242 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9AC6C315FFBCE000C35242 /* CoreGraphics.framework */; };
+		6A9AC6C615FFBCE000C35242 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9AC6C515FFBCE000C35242 /* CoreData.framework */; };
+		6A9AC6CC15FFBCE000C35242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A9AC6CA15FFBCE000C35242 /* InfoPlist.strings */; };
+		6A9AC6CE15FFBCE000C35242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6CD15FFBCE000C35242 /* main.m */; };
+		6A9AC6D215FFBCE000C35242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6D115FFBCE000C35242 /* AppDelegate.m */; };
+		6A9AC6D515FFBCE000C35242 /* DriverDetails.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6D315FFBCE000C35242 /* DriverDetails.xcdatamodeld */; };
+		6A9AC6D815FFBCE000C35242 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6D715FFBCE000C35242 /* MasterViewController.m */; };
+		6A9AC6DB15FFBCE000C35242 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6DA15FFBCE000C35242 /* DetailViewController.m */; };
+		6A9AC6DE15FFBCE000C35242 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9AC6DC15FFBCE000C35242 /* MasterViewController.xib */; };
+		6A9AC6E115FFBCE100C35242 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9AC6DF15FFBCE100C35242 /* DetailViewController.xib */; };
+		6A9AC6EC15FFD46900C35242 /* DriverDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6EB15FFD46900C35242 /* DriverDetails.m */; };
+		6A9AC6F015FFD6AE00C35242 /* DriverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AC6EE15FFD6AE00C35242 /* DriverViewController.m */; };
+		6A9AC6F115FFD6AE00C35242 /* DriverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A9AC6EF15FFD6AE00C35242 /* DriverViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A15AFC91600E5650029D2FD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		6A9AC6BB15FFBCE000C35242 /* DriverDetails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverDetails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9AC6BF15FFBCE000C35242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A9AC6C115FFBCE000C35242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A9AC6C315FFBCE000C35242 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A9AC6C515FFBCE000C35242 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6A9AC6C915FFBCE000C35242 /* DriverDetails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DriverDetails-Info.plist"; sourceTree = "<group>"; };
+		6A9AC6CB15FFBCE000C35242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A9AC6CD15FFBCE000C35242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A9AC6CF15FFBCE000C35242 /* DriverDetails-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DriverDetails-Prefix.pch"; sourceTree = "<group>"; };
+		6A9AC6D015FFBCE000C35242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A9AC6D115FFBCE000C35242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A9AC6D415FFBCE000C35242 /* DriverDetails.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriverDetails.xcdatamodel; sourceTree = "<group>"; };
+		6A9AC6D615FFBCE000C35242 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6A9AC6D715FFBCE000C35242 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6A9AC6D915FFBCE000C35242 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6A9AC6DA15FFBCE000C35242 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6A9AC6DD15FFBCE000C35242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		6A9AC6E015FFBCE100C35242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		6A9AC6EA15FFD46900C35242 /* DriverDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverDetails.h; sourceTree = "<group>"; };
+		6A9AC6EB15FFD46900C35242 /* DriverDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverDetails.m; sourceTree = "<group>"; };
+		6A9AC6ED15FFD6AE00C35242 /* DriverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverViewController.h; sourceTree = "<group>"; };
+		6A9AC6EE15FFD6AE00C35242 /* DriverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverViewController.m; sourceTree = "<group>"; };
+		6A9AC6EF15FFD6AE00C35242 /* DriverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A9AC6B815FFBCE000C35242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A15AFCA1600E5650029D2FD /* libsqlite3.0.dylib in Frameworks */,
+				6A9AC6C015FFBCE000C35242 /* UIKit.framework in Frameworks */,
+				6A9AC6C215FFBCE000C35242 /* Foundation.framework in Frameworks */,
+				6A9AC6C415FFBCE000C35242 /* CoreGraphics.framework in Frameworks */,
+				6A9AC6C615FFBCE000C35242 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A9AC6B015FFBCE000C35242 = {
+			isa = PBXGroup;
+			children = (
+				6A9AC6C715FFBCE000C35242 /* DriverDetails */,
+				6A9AC6BE15FFBCE000C35242 /* Frameworks */,
+				6A9AC6BC15FFBCE000C35242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A9AC6BC15FFBCE000C35242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AC6BB15FFBCE000C35242 /* DriverDetails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A9AC6BE15FFBCE000C35242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A15AFC91600E5650029D2FD /* libsqlite3.0.dylib */,
+				6A9AC6BF15FFBCE000C35242 /* UIKit.framework */,
+				6A9AC6C115FFBCE000C35242 /* Foundation.framework */,
+				6A9AC6C315FFBCE000C35242 /* CoreGraphics.framework */,
+				6A9AC6C515FFBCE000C35242 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A9AC6C715FFBCE000C35242 /* DriverDetails */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AC6D015FFBCE000C35242 /* AppDelegate.h */,
+				6A9AC6D115FFBCE000C35242 /* AppDelegate.m */,
+				6A9AC6D615FFBCE000C35242 /* MasterViewController.h */,
+				6A9AC6D715FFBCE000C35242 /* MasterViewController.m */,
+				6A9AC6D915FFBCE000C35242 /* DetailViewController.h */,
+				6A9AC6DA15FFBCE000C35242 /* DetailViewController.m */,
+				6A9AC6ED15FFD6AE00C35242 /* DriverViewController.h */,
+				6A9AC6EE15FFD6AE00C35242 /* DriverViewController.m */,
+				6A9AC6EA15FFD46900C35242 /* DriverDetails.h */,
+				6A9AC6EB15FFD46900C35242 /* DriverDetails.m */,
+				6A9AC6D315FFBCE000C35242 /* DriverDetails.xcdatamodeld */,
+				6A9AC6F215FFD6D600C35242 /* Resources */,
+				6A9AC6C815FFBCE000C35242 /* Supporting Files */,
+			);
+			path = DriverDetails;
+			sourceTree = "<group>";
+		};
+		6A9AC6C815FFBCE000C35242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AC6C915FFBCE000C35242 /* DriverDetails-Info.plist */,
+				6A9AC6CA15FFBCE000C35242 /* InfoPlist.strings */,
+				6A9AC6CD15FFBCE000C35242 /* main.m */,
+				6A9AC6CF15FFBCE000C35242 /* DriverDetails-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A9AC6F215FFD6D600C35242 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AC6DC15FFBCE000C35242 /* MasterViewController.xib */,
+				6A9AC6DF15FFBCE100C35242 /* DetailViewController.xib */,
+				6A9AC6EF15FFD6AE00C35242 /* DriverViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A9AC6BA15FFBCE000C35242 /* DriverDetails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9AC6E415FFBCE100C35242 /* Build configuration list for PBXNativeTarget "DriverDetails" */;
+			buildPhases = (
+				6A9AC6B715FFBCE000C35242 /* Sources */,
+				6A9AC6B815FFBCE000C35242 /* Frameworks */,
+				6A9AC6B915FFBCE000C35242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriverDetails;
+			productName = DriverDetails;
+			productReference = 6A9AC6BB15FFBCE000C35242 /* DriverDetails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A9AC6B215FFBCE000C35242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Geoff Leavitt";
+			};
+			buildConfigurationList = 6A9AC6B515FFBCE000C35242 /* Build configuration list for PBXProject "DriverDetails" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A9AC6B015FFBCE000C35242;
+			productRefGroup = 6A9AC6BC15FFBCE000C35242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A9AC6BA15FFBCE000C35242 /* DriverDetails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A9AC6B915FFBCE000C35242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9AC6CC15FFBCE000C35242 /* InfoPlist.strings in Resources */,
+				6A9AC6DE15FFBCE000C35242 /* MasterViewController.xib in Resources */,
+				6A9AC6E115FFBCE100C35242 /* DetailViewController.xib in Resources */,
+				6A9AC6F115FFD6AE00C35242 /* DriverViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A9AC6B715FFBCE000C35242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9AC6CE15FFBCE000C35242 /* main.m in Sources */,
+				6A9AC6D215FFBCE000C35242 /* AppDelegate.m in Sources */,
+				6A9AC6D515FFBCE000C35242 /* DriverDetails.xcdatamodeld in Sources */,
+				6A9AC6D815FFBCE000C35242 /* MasterViewController.m in Sources */,
+				6A9AC6DB15FFBCE000C35242 /* DetailViewController.m in Sources */,
+				6A9AC6EC15FFD46900C35242 /* DriverDetails.m in Sources */,
+				6A9AC6F015FFD6AE00C35242 /* DriverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A9AC6CA15FFBCE000C35242 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A9AC6CB15FFBCE000C35242 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A9AC6DC15FFBCE000C35242 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A9AC6DD15FFBCE000C35242 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		6A9AC6DF15FFBCE100C35242 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A9AC6E015FFBCE100C35242 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A9AC6E215FFBCE100C35242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A9AC6E315FFBCE100C35242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A9AC6E515FFBCE100C35242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriverDetails/DriverDetails-Prefix.pch";
+				INFOPLIST_FILE = "DriverDetails/DriverDetails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A9AC6E615FFBCE100C35242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DriverDetails/DriverDetails-Prefix.pch";
+				INFOPLIST_FILE = "DriverDetails/DriverDetails-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A9AC6B515FFBCE000C35242 /* Build configuration list for PBXProject "DriverDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9AC6E215FFBCE100C35242 /* Debug */,
+				6A9AC6E315FFBCE100C35242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9AC6E415FFBCE100C35242 /* Build configuration list for PBXNativeTarget "DriverDetails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9AC6E515FFBCE100C35242 /* Debug */,
+				6A9AC6E615FFBCE100C35242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A9AC6D315FFBCE000C35242 /* DriverDetails.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A9AC6D415FFBCE000C35242 /* DriverDetails.xcdatamodel */,
+			);
+			currentVersion = 6A9AC6D415FFBCE000C35242 /* DriverDetails.xcdatamodel */;
+			path = DriverDetails.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A9AC6B215FFBCE000C35242 /* Project object */;
+}
