@@ -113,13 +113,10 @@
 				6A9AC6D115FFBCE000C35242 /* AppDelegate.m */,
 				6A9AC6D615FFBCE000C35242 /* MasterViewController.h */,
 				6A9AC6D715FFBCE000C35242 /* MasterViewController.m */,
-				6A9AC6DC15FFBCE000C35242 /* MasterViewController.xib */,
 				6A9AC6D915FFBCE000C35242 /* DetailViewController.h */,
 				6A9AC6DA15FFBCE000C35242 /* DetailViewController.m */,
-				6A9AC6DF15FFBCE100C35242 /* DetailViewController.xib */,
 				6A9AC6ED15FFD6AE00C35242 /* DriverViewController.h */,
 				6A9AC6EE15FFD6AE00C35242 /* DriverViewController.m */,
-				6A9AC6EF15FFD6AE00C35242 /* DriverViewController.xib */,
 				6A9AC6EA15FFD46900C35242 /* DriverDetails.h */,
 				6A9AC6EB15FFD46900C35242 /* DriverDetails.m */,
 				6A9AC6D315FFBCE000C35242 /* DriverDetails.xcdatamodeld */,
@@ -144,6 +141,9 @@
 		6A9AC6F215FFD6D600C35242 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6A9AC6DC15FFBCE000C35242 /* MasterViewController.xib */,
+				6A9AC6DF15FFBCE100C35242 /* DetailViewController.xib */,
+				6A9AC6EF15FFD6AE00C35242 /* DriverViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";

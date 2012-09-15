@@ -26,15 +26,15 @@
     IBOutlet UITextField *lastName;
     IBOutlet UITextField *firstName;
     IBOutlet UITextField *chassis;
-    IBOutlet UITextField *chassisBar;
+    IBOutlet NSNumber *chassisBar;
     IBOutlet UITextField *engine;
-    IBOutlet UITextField *engineBar;
-    IBOutlet UITextField *tire1;
-    IBOutlet UITextField *tire2;
-    IBOutlet UITextField *tire3;
-    IBOutlet UITextField *tire4;
-    IBOutlet UITextField *tire5;
-    IBOutlet UITextField *tire6;
+    IBOutlet NSNumber *engineBar;
+    IBOutlet NSNumber *tire1;
+    IBOutlet NSNumber *tire2;
+    IBOutlet NSNumber *tire3;
+    IBOutlet NSNumber *tire4;
+    IBOutlet NSNumber *tire5;
+    IBOutlet NSNumber *tire6;
     
     //  LineaPro implementation
     IBOutlet UITextView *debugText;
@@ -54,15 +54,15 @@
 @property (nonatomic, strong) IBOutlet UITextField *lastName;
 @property (nonatomic, strong) IBOutlet UITextField *firstName;
 @property (nonatomic, strong) IBOutlet UITextField *chassis;
-@property (nonatomic, strong) IBOutlet UITextField *chassisBar;
+@property (nonatomic, strong) IBOutlet NSNumber *chassisBar;
 @property (nonatomic, strong) IBOutlet UITextField *engine;
-@property (nonatomic, strong) IBOutlet UITextField *engineBar;
-@property (nonatomic, strong) IBOutlet UITextField *tire1;
-@property (nonatomic, strong) IBOutlet UITextField *tire2;
-@property (nonatomic, strong) IBOutlet UITextField *tire3;
-@property (nonatomic, strong) IBOutlet UITextField *tire4;
-@property (nonatomic, strong) IBOutlet UITextField *tire5;
-@property (nonatomic, strong) IBOutlet UITextField *tire6;
+@property (nonatomic, strong) IBOutlet NSNumber *engineBar;
+@property (nonatomic, strong) IBOutlet NSNumber *tire1;
+@property (nonatomic, strong) IBOutlet NSNumber *tire2;
+@property (nonatomic, strong) IBOutlet NSNumber *tire3;
+@property (nonatomic, strong) IBOutlet NSNumber *tire4;
+@property (nonatomic, strong) IBOutlet NSNumber *tire5;
+@property (nonatomic, strong) IBOutlet NSNumber *tire6;
 
 - (IBAction) cancel:(id)sender;
 - (IBAction) save:(id)sender;

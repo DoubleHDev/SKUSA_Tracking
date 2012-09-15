@@ -12,6 +12,7 @@
 
 #import <CoreData/CoreData.h>
 #import "DriverViewController.h"
+#import "DetailViewController.h"
 
 @interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate, DriverViewControllerDelegate>
 {

@@ -112,15 +112,15 @@
     driver.lastName = lastName.text;
     driver.firstName = firstName.text;
     driver.engineName = engine.text;
-    driver.engineBarCode = [NSString stringWithFormat:@"%@", engineBar];
+    driver.engineBarCode = (NSNumber *)[NSString stringWithFormat:@"%@", engineBar];
     driver.chassisName = chassis.text;
-    driver.chassisBarCode = [NSString stringWithFormat:@"%@", chassisBar];
-    driver.tire1 = [NSString stringWithFormat:@"%@", tire1];
-    driver.tire2 = [NSString stringWithFormat:@"%@", tire2];
-    driver.tire3 = [NSString stringWithFormat:@"%@", tire3];
-    driver.tire4 = [NSString stringWithFormat:@"%@", tire4];
-    driver.tire5 = [NSString stringWithFormat:@"%@", tire5];
-    driver.tire6 = [NSString stringWithFormat:@"%@", tire6];
+    driver.chassisBarCode = (NSNumber *)[NSString stringWithFormat:@"%@", chassisBar];
+    driver.tire1 = (NSNumber *)[NSString stringWithFormat:@"%@", tire1];
+    driver.tire2 = (NSNumber *)[NSString stringWithFormat:@"%@", tire2];
+    driver.tire3 = (NSNumber *)[NSString stringWithFormat:@"%@", tire3];
+    driver.tire4 = (NSNumber *)[NSString stringWithFormat:@"%@", tire4];
+    driver.tire5 = (NSNumber *)[NSString stringWithFormat:@"%@", tire5];
+    driver.tire6 = (NSNumber *)[NSString stringWithFormat:@"%@", tire6];
     
     [delegate driverViewController:self selectedSave:YES];
 }

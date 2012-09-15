@@ -9,10 +9,26 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
+
 - (void)configureView;
+
 @end
 
 @implementation DetailViewController
+
+@synthesize lastName;
+@synthesize firstName;
+@synthesize engine;
+@synthesize engineBar;
+@synthesize chassis;
+@synthesize chassisBar;
+@synthesize tire1;
+@synthesize tire2;
+@synthesize tire3;
+@synthesize tire4;
+@synthesize tire5;
+@synthesize tire6;
+@synthesize driver;
 
 #pragma mark - Managing the detail item
 
@@ -39,7 +55,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Driver Info";
+    lastName.text = driver.lastName;
+    firstName.text = driver.firstName;
+    engine.text = driver.engineName;
+    engineBar.text =[NSString stringWithFormat:@"%@", driver.engineBarCode];
+    chassis.text = driver.chassisName;
+    chassis.text = [NSString stringWithFormat:@"%@", driver.chassisBarCode];
+    tire1.text = [NSString stringWithFormat:@"%@", driver.tire1];
+    tire2.text = [NSString stringWithFormat:@"%@", driver.tire2];
+    tire3.text = [NSString stringWithFormat:@"%@", driver.tire3];
+    tire4.text = [NSString stringWithFormat:@"%@", driver.tire4];
+    tire5.text = [NSString stringWithFormat:@"%@", driver.tire5];
+    tire6.text = [NSString stringWithFormat:@"%@", driver.tire6];
+    
     [self configureView];
+    
+    
+    
 }
 
 - (void)viewDidUnload
