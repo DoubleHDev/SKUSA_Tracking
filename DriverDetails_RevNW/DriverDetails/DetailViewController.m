@@ -59,15 +59,15 @@
     lastName.text = driver.lastName;
     firstName.text = driver.firstName;
     engine.text = driver.engineName;
-    engineBar.text =[NSString stringWithFormat:@"%@", driver.engineBarCode];
+    engineBar =[NSString stringWithFormat:@"%@", driver.engineBarCode];
     chassis.text = driver.chassisName;
     chassis.text = [NSString stringWithFormat:@"%@", driver.chassisBarCode];
-    tire1.text = [NSString stringWithFormat:@"%@", driver.tire1];
-    tire2.text = [NSString stringWithFormat:@"%@", driver.tire2];
-    tire3.text = [NSString stringWithFormat:@"%@", driver.tire3];
-    tire4.text = [NSString stringWithFormat:@"%@", driver.tire4];
-    tire5.text = [NSString stringWithFormat:@"%@", driver.tire5];
-    tire6.text = [NSString stringWithFormat:@"%@", driver.tire6];
+    tire1 = [NSString stringWithFormat:@"%@", driver.tire1];
+    tire2 = [NSString stringWithFormat:@"%@", driver.tire2];
+    tire3 = [NSString stringWithFormat:@"%@", driver.tire3];
+    tire4 = [NSString stringWithFormat:@"%@", driver.tire4];
+    tire5 = [NSString stringWithFormat:@"%@", driver.tire5];
+    tire6 = [NSString stringWithFormat:@"%@", driver.tire6];
     
     [self configureView];
     

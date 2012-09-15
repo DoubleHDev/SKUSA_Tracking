@@ -3,7 +3,7 @@
     <entity name="DriverDetails" representedClassName="DriverDetails" syncable="YES">
         <attribute name="chassisBarCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="chassisName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="engineBarCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="engineBarCode" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="engineName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="firstName" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="lastName" attributeType="String" indexed="YES" syncable="YES"/>

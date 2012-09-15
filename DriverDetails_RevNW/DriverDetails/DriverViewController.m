@@ -112,7 +112,7 @@
     driver.lastName = lastName.text;
     driver.firstName = firstName.text;
     driver.engineName = engine.text;
-    driver.engineBarCode = (NSNumber *)[NSString stringWithFormat:@"%@", engineBar];
+    driver.engineBarCode = [NSString stringWithFormat:@"%@", engineBar];
     driver.chassisName = chassis.text;
     driver.chassisBarCode = (NSNumber *)[NSString stringWithFormat:@"%@", chassisBar];
     driver.tire1 = (NSNumber *)[NSString stringWithFormat:@"%@", tire1];
